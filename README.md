@@ -15,6 +15,8 @@ There are a couple of files here:
 
 * Note: interlanguage links were manually added at first, before WikiData started handling it (and the manually added links were mostly removed). This means that ILLs were not always symmetric links and in some cases, still are not if there are residual manually added links.
 
+* In order to avoid the complexity of the interlanguage link adding, you could instead just figure out what pages are currently linked (fairly easy peasy, just grab the interlanguage links) and then find it's first edit to identify the date of creation (also simple). However, thinking about the creation of a page and when two pages were linked have different implications for what dynamics one is considering.
+
 ## Sohyeon's process for manually constructing lists of rules.
 
 I did this in early 2020 if I remember correctly. The basic idea was I (1) grabbed all pages that were listed on the policy and guideline pages (e.g., "List of policies", or their equivalent, as language editions don't necessarily organize their rules the same way); (2) manually cross-checked the overall list this with what pages were under the policy/guideline/etc. *category*; (3) manually evaluated the pages based on the criteria in the flowchart below:
